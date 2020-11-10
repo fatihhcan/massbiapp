@@ -1,4 +1,4 @@
-# sampleexercise
+# mass body index app
 
 A new Flutter project.
 
