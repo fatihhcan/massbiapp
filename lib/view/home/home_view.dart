@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sampleexercise/view/transactions/transactions_view.dart';
 
 class HomeView extends StatefulWidget {
   HomeView({Key key}) : super(key: key);
@@ -12,7 +13,12 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.blue,
+        color: Colors.white,
+        child: Center(
+          child: FloatingActionButton(onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>TransactionsView()));
+            }, child: Icon(Icons.accessibility_new),backgroundColor: Colors.black,),
+        ),
       ),
     );
   }

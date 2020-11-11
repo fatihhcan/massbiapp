@@ -17,7 +17,7 @@ class _SplashViewState extends State<SplashView> {
   Widget build(BuildContext context) {
     return SplashScreen(
       routeName: "/",
-      seconds: 15,
+      seconds: 8,
       backgroundColor: Colors.white,
       image: Image.asset("asset/splash/splash.gif"),
       loaderColor: Colors.black,
